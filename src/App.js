@@ -20,6 +20,17 @@ export function App() {
           Increment
         </button>
       </div>
+      <button
+        style={{
+          width: "50px",
+          height: "50px",
+          borderRadius: "25px",
+          backgroundColor: "lightskyblue",
+        }}
+        onClick={() => setCounter(1)}
+      >
+        Reset
+      </button>
     </div>
   );
 }
