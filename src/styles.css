@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  height: 100vh; /* This ensures the body occupies the full viewport height */
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+
+.myContainer {
+  font-family: Cambria;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1 0 200px;
+  gap: 30px;
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: green; /* Change this to your desired color */
+  color: white; /* Text color */
+  font-weight: bold;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+}
+
+.counter-value {
+  font-size: 25px;
+}
+
+.button-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
